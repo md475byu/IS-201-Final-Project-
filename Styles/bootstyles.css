@@ -1,0 +1,25 @@
+body{ height:100vh; margin:0; }
+
+header{ min-height:50px; background:lightcyan; }
+footer{ min-height:50px; background:PapayaWhip; }
+
+/* Trick */
+header{
+    position: relative;
+    align-items: right;
+    text-align: right;
+}
+body{ 
+  display:flex; 
+  flex-direction:column; 
+  background-image: url(../Images/Rocks.jpeg);
+  background-size: cover;
+}
+
+footer{
+  margin-top:auto; 
+  display: inline;
+  text-align: center;
+  vertical-align: top;
+  
+}
